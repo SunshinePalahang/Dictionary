@@ -19,6 +19,12 @@ if option == 1:
     print("SAVED!")
     infos[name] = infos["age"], infos["address"], infos["phone_no"]
 # perform option 2, search
-
+if option ==2:
+        search = input("Search: ")
+        if search in infos:
+                print("Full Name: ", name)
+                print("Age: ", infos["age"])
+                print("Address: ", infos["address"] )
+                print("Phone number: ", infos["phone_no"] )
 #exit
 
