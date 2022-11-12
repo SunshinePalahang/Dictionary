@@ -7,6 +7,7 @@ def menu():
 
 menu()
 #ask user input
+option = int(input("What do you want to do? (1-3): "))
 #perform option 1, add data
 #perform option 2, search
 #exit
