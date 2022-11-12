@@ -1,12 +1,15 @@
+from colorama import Fore, Style
 #display menu
 infos ={
     "Shane Palahang": {"age":19, "address":'Taguig',"phone no.":'012345'}
 }
 def menu():
-    print("Menu: ")
-    print("  1 -> Add an item")
-    print("  2 -> Search")
-    print("  3 -> Exit")
+    print(Fore.MAGENTA+"==========MENU==========")
+    print(Fore.CYAN+"   1 -> Add an item")
+    print(Fore.GREEN+"   2 -> Search")
+    print(Fore.BLUE+"   3 -> Exit")
+    print(Style.RESET_ALL)
+
 
 while True:    
     menu()
